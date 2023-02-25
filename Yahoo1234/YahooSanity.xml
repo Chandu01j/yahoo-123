@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteYahoo">
+  <test thread-count="5" name="TestYahoo">
+    <classes>
+      <class name="testNg.TestNgClass"/>
+      <class name="testNg.TestNgClass1"/>
+      <class name="testNg.TestNgClass_2"/>
+    </classes>
+  </test> <!-- TestYahoo -->
+</suite> <!-- SuiteYahoo -->
