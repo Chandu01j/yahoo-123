@@ -10,9 +10,11 @@ public class YahooLoginPage {
 	
 	// Variable : WebElement :Login Or Sign Up Page
 	
-	@FindBy (xpath = "//input[@id='login-username']")
-	private WebElement userNameId ; 
+//	@FindBy (xpath = "//input[@id='login-username']")
+//	private WebElement userNameId ; 
 	
+	@FindBy (xpath = "//input[@id='login-username12355']")
+	private WebElement userNameId12456 ; 
 	
 	@FindBy (xpath = "//input[@id='login-signin']")
 	private WebElement nextButton ; 
